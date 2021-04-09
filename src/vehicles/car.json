@@ -1,0 +1,11 @@
+{
+    "name": "car",
+    "width": 1.85,
+    "length": 4.5,
+    "wheelBase": 2.7,
+    "speedLimit": 17.8,
+    "maxAcceleration": 2.6,
+    "maxBraking": -5,
+    "minBraking": -3,
+    "maxSteeringAngle": 26.15
+}

@@ -1,0 +1,11 @@
+{
+    "name": "bicycle",
+    "width": 0.6,
+    "length": 1.75,
+    "wheelBase": 1,
+    "speedLimit": 4.5,
+    "maxAcceleration": 0.75,
+    "maxBraking": -5,
+    "minBraking": -2,
+    "maxSteeringAngle": 26.15
+}

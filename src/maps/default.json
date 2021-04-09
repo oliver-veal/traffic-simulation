@@ -1,0 +1,296 @@
+{
+    "lanes": [
+        {
+            "id": 1,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": -0.5,
+                "y": 20
+            },
+            "numLanesFromCenter": 0,
+            "orientation": -90,
+            "type": "ENTRY",
+            "density": "MEDIUM",
+            "minorSignalGroup": 0,
+            "rightTurn": 9
+        },
+        {
+            "id": 2,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": -1,
+                "y": 20
+            },
+            "numLanesFromCenter": 1,
+            "orientation": -90,
+            "type": "ENTRY",
+            "density": "HIGH",
+            "majorSignalGroup": 0,
+            "connectsTo": 5,
+            "leftTurn": 3
+        },
+        {
+            "id": 3,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": -20,
+                "y": 0.5
+            },
+            "numLanesFromCenter": 0,
+            "orientation": 180,
+            "type": "EXIT"
+        },
+        {
+            "id": 4,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": -20,
+                "y": -0.5
+            },
+            "numLanesFromCenter": 0,
+            "orientation": 0,
+            "type": "ENTRY",
+            "minorSignalGroup": 1,
+            "connectsTo": 9,
+            "leftTurn": 5,
+            "rightTurn": 12
+        },
+        {
+            "id": 5,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": -1,
+                "y": -20
+            },
+            "numLanesFromCenter": 1,
+            "orientation": -90,
+            "type": "EXIT"
+        },
+        {
+            "id": 6,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": -0.5,
+                "y": -20
+            },
+            "numLanesFromCenter": 0,
+            "orientation": -90,
+            "type": "EXIT"
+        },
+        {
+            "id": 7,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": 0.5,
+                "y": -20
+            },
+            "numLanesFromCenter": 0,
+            "orientation": 90,
+            "type": "ENTRY",
+            "minorSignalGroup": 0,
+            "rightTurn": 3
+        },
+        {
+            "id": 8,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": 1,
+                "y": -20
+            },
+            "numLanesFromCenter": 1,
+            "orientation": 90,
+            "type": "ENTRY",
+            "majorSignalGroup": 0,
+            "connectsTo": 11,
+            "leftTurn": 9
+        },
+        {
+            "id": 9,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": 20,
+                "y": -0.5
+            },
+            "numLanesFromCenter": 0,
+            "orientation": 0,
+            "type": "EXIT"
+        },
+        {
+            "id": 10,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": 20,
+                "y": 0.5
+            },
+            "numLanesFromCenter": 0,
+            "orientation": 180,
+            "type": "ENTRY",
+            "minorSignalGroup": 2,
+            "connectsTo": 3,
+            "leftTurn": 11,
+            "rightTurn": 6
+        },
+        {
+            "id": 11,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": 1,
+                "y": 20
+            },
+            "numLanesFromCenter": 1,
+            "orientation": 90,
+            "type": "EXIT"
+        },
+        {
+            "id": 12,
+            "vehicle": "car",
+            "width": 1,
+            "length": 40,
+            "position": {
+                "x": 0.5,
+                "y": 20
+            },
+            "numLanesFromCenter": 0,
+            "orientation": 90,
+            "type": "EXIT"
+        },
+        {
+            "id": 13,
+            "vehicle": "bicycle",
+            "width": 0.333,
+            "length": 40,
+            "position": {
+                "x": -2.166,
+                "y": 20
+            },
+            "numLanesFromCenter": 2,
+            "orientation": -90,
+            "type": "ENTRY",
+            "majorSignalGroup": 0,
+            "connectsTo": 14,
+            "leftTurn": 18
+        },
+        {
+            "id": 14,
+            "vehicle": "bicycle",
+            "width": 0.333,
+            "length": 40,
+            "position": {
+                "x": -2.166,
+                "y": -20
+            },
+            "numLanesFromCenter": 2,
+            "orientation": -90,
+            "type": "EXIT"
+        },
+        {
+            "id": 15,
+            "vehicle": "bicycle",
+            "width": 0.333,
+            "length": 40,
+            "position": {
+                "x": -20,
+                "y": -1.1666
+            },
+            "numLanesFromCenter": 1,
+            "orientation": 0,
+            "type": "ENTRY",
+            "minorSignalGroup": 1,
+            "connectsTo": 16,
+            "leftTurn": 14
+        },
+        {
+            "id": 16,
+            "vehicle": "bicycle",
+            "width": 0.333,
+            "length": 40,
+            "position": {
+                "x": 20,
+                "y": -1.1666
+            },
+            "numLanesFromCenter": 1,
+            "orientation": 0,
+            "type": "EXIT"
+        },
+        {
+            "id": 17,
+            "vehicle": "bicycle",
+            "width": 0.333,
+            "length": 40,
+            "position": {
+                "x": 20,
+                "y": 1.1666
+            },
+            "numLanesFromCenter": 1,
+            "orientation": 180,
+            "type": "ENTRY",
+            "minorSignalGroup": 2,
+            "connectsTo": 18,
+            "leftTurn": 20
+        },
+        {
+            "id": 18,
+            "vehicle": "bicycle",
+            "width": 0.333,
+            "length": 40,
+            "position": {
+                "x": -20,
+                "y": 1.1666
+            },
+            "numLanesFromCenter": 1,
+            "orientation": 180,
+            "type": "EXIT"
+        },
+        {
+            "id": 19,
+            "vehicle": "bicycle",
+            "width": 0.333,
+            "length": 40,
+            "position": {
+                "x": 2.166,
+                "y": -20
+            },
+            "numLanesFromCenter": 2,
+            "orientation": 90,
+            "type": "ENTRY",
+            "majorSignalGroup": 0,
+            "connectsTo": 20,
+            "leftTurn": 16
+        },
+        {
+            "id": 20,
+            "vehicle": "bicycle",
+            "width": 0.333,
+            "length": 40,
+            "position": {
+                "x": 2.166,
+                "y": 20
+            },
+            "numLanesFromCenter": 2,
+            "orientation": 90,
+            "type": "EXIT"
+        }
+    ]
+}
